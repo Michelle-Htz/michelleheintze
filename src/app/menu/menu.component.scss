@@ -1,0 +1,48 @@
+.header {
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.followme {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    margin-right: 100px;
+    width: 200px;
+}
+
+.followme-icon {
+    object-fit: cover;
+}
+
+.img-logo {
+    height: 30px;
+    width: 30px;
+}
+
+.img-weblogo {
+    height: 70px;
+    width: 70px;
+}
+
+.nav {
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    a {
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+        &:hover {
+            color: darkgray;
+        }
+    }
+}
