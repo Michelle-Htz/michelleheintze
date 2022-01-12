@@ -1,7 +1,8 @@
 <div class="arrow-container">
 
     <div class="arrow-up">
-        <img class="arrow-img" src="assets/img/arrow.png">
+        <a (click)="scroll('#top')"> <img class="arrow-img" src="assets/img/arrow.png"></a>
+
     </div>
 
 
@@ -11,13 +12,13 @@
 
 
     <div class="footer-content">
-        <a> © 2022 Michelle Heintze</a>
+        <a routerLink="/"> © 2022 Michelle Heintze</a>
 
         <div class="footer-links">
-            <a>ABOUT</a>
+            <a routerLink="/">ABOUT</a>
             <a>CONTACT</a>
             <a>AGB</a>
-            <a>IMPRESSUM</a>
+            <a routerLink="/imprint">IMPRINT</a>
         </div>
 
 
