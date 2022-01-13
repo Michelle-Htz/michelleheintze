@@ -1,0 +1,57 @@
+.header-aboutme {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header-content {
+    width: 50%;
+}
+
+.header-img {
+    width: 50%;
+    img {
+        width: 100%;
+    }
+}
+
+.table-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 180px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px silver;
+    margin-top: 10px;
+    margin-left: 9px;
+    margin-right: 9px;
+    cursor: pointer;
+    img {
+        border-radius: 10px;
+        height: 95%;
+        width: 95%;
+        &:hover {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.table-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.border {
+    height: 50px;
+    box-shadow: 10px 10px 15px silver;
+    background-color: #fafafa;
+    ;
+}
