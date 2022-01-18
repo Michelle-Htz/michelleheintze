@@ -1,0 +1,30 @@
+.myjourney-container {}
+
+.myjourney-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.myjourney-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.myjourney-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    img {
+        height: 300px;
+        width: 450px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 15px silver;
+    }
+}
