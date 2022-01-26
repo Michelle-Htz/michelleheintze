@@ -4,10 +4,17 @@
     align-items: center;
     margin-left: 100px;
     margin-right: 100px;
+    height: 545px;
 }
 
 .header-content {
     width: 50%;
+    h2 {
+        font-size: 75px;
+    }
+    p {
+        font-size: 25px;
+    }
 }
 
 .header-img {
@@ -20,13 +27,12 @@
 .contact-content {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .border {
-    height: 50px;
+    height: 25px;
     box-shadow: 10px 10px 15px silver;
-    background-color: #fafafa;
 }
 
 .form-box {
@@ -85,29 +91,40 @@
 }
 
 .contact {
+    width: 200px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    h3 {
+    justify-content: space-between;
+    cursor: pointer;
+    p {
         margin-right: 20px;
+        font-size: 15px;
     }
 }
 
 .contact-right {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     margin-left: 20px;
-    h3 {
+    cursor: pointer;
+    p {
         margin-right: 20px;
+        font-size: 15px;
     }
 }
 
 .contact-icon {
     margin-right: 20px;
-    img {
-        height: 50px;
-        width: 50px;
-        object-fit: cover;
+}
+
+.contact-icon {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    cursor: pointer;
+    &:hover {
+        height: 55px;
+        width: 55px;
     }
 }

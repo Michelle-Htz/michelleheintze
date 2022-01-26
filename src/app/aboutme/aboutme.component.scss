@@ -1,13 +1,19 @@
 .header-aboutme {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     margin-left: 100px;
     margin-right: 100px;
+    height: 545px;
 }
 
 .header-content {
     width: 50%;
+    h1 {
+        font-size: 75px;
+    }
+    p {
+        font-size: 20px;
+    }
 }
 
 .header-img {
@@ -51,5 +57,4 @@
 .border {
     height: 50px;
     box-shadow: 10px 10px 15px silver;
-    background-color: #fafafa;
 }

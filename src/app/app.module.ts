@@ -13,7 +13,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { MyskillsComponent } from './myskills/myskills.component';
 import { MyjourneyComponent } from './myjourney/myjourney.component';
-
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +30,8 @@ import { MyjourneyComponent } from './myjourney/myjourney.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

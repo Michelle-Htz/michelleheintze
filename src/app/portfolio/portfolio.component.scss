@@ -1,12 +1,13 @@
-.portfolio-container {
+// .portfolio-container {
+//     margin-left: 100px;
+//     margin-right: 100px;
+// }
+.portfolio-header {
     margin-left: 100px;
     margin-right: 100px;
-}
-
-.portfolio-header {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    height: 545px;
 }
 
 .header-img {
@@ -18,6 +19,12 @@
 
 .header-text {
     width: 50%;
+    h1 {
+        font-size: 75px;
+    }
+    p {
+        font-size: 25px;
+    }
 }
 
 .latestwork {
@@ -67,4 +74,9 @@
 
 .project-description {
     margin-bottom: 0px;
+}
+
+.border {
+    height: 50px;
+    box-shadow: 10px 10px 15px silver;
 }
